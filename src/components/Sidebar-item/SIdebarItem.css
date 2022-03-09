@@ -1,0 +1,38 @@
+.sidebarItem {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  padding: 0 30px;
+  margin: 20px 0;
+}
+
+.sidebarItem > p {
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 28px;
+  letter-spacing: -0.02em;
+  color: #566474;
+}
+
+.icon {
+  color: #566474 !important;
+  font-size: 16px !important;
+}
+
+.active {
+  background-color: #f7f8fa;
+  width: 186px;
+  padding: 4px 30px 18px 30px;
+  border-top-right-radius: 100px;
+  border-bottom-right-radius: 100px;
+}
+
+.active > p {
+  color: #445ee2;
+}
+
+.active .icon {
+  color: #445ee2 !important;
+}

@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&display=swap');
+
+.header {
+  height: 88px;
+  border-bottom: 1px solid #ebf0f5;
+  padding: 22px 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.avatar {
+  height: 26px;
+  width: 26px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.header__right {
+  border: 1px solid #e5e5e5;
+  border-radius: 10px;
+}
+
+.header__right--profile {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 8px;
+  width: 160px;
+  height: 44px;
+}
+
+.header__right--profile > p {
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 28px;
+  letter-spacing: -0.02em;
+  color: #1e272e;
+  margin: 0 10px;
+  order: 1;
+}

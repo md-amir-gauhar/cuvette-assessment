@@ -1,0 +1,96 @@
+.graph {
+  padding: 30px;
+  border: 1px solid #ebf0f5;
+  box-sizing: border-box;
+  border-radius: 10px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.graph__top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.graph__top--left {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.graph__heading > P {
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 28px;
+  letter-spacing: -0.02em;
+  color: #1e272e;
+}
+
+.graph__text > p {
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 150%;
+  letter-spacing: -0.02em;
+  color: #566474;
+}
+
+.graph__text > p > span {
+  font-weight: bold;
+}
+
+.graph__top--right {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f7f8fa;
+}
+
+.graph__bottom {
+  height: 345px;
+  width: 647px;
+}
+
+.graph-container {
+  background: url('../../../public/skills.png');
+  background-repeat: no-repeat;
+  background-position: bottom;
+  width: 100%;
+  height: 307px;
+  border: 1px solid #f7f8fa;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+
+.color-blue {
+  height: 100%;
+  width: 125px;
+  background: #438af6;
+  opacity: 0.1;
+  margin-left: 130px;
+}
+
+.graph__units {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.graph__units > span {
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: -0.02em;
+  color: #9eaab7;
+}

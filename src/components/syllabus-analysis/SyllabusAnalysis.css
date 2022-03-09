@@ -1,0 +1,27 @@
+.syllabus-analysis {
+  padding: 30px;
+  border: 1px solid #ebf0f5;
+  box-sizing: border-box;
+  border-radius: 10px;
+  grid-area: 'syllabus';
+  height: 429px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.heading {
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 28px;
+  letter-spacing: -0.02em;
+  color: #1e272e;
+}
+
+.syllabi {
+  display: flex;
+  flex-direction: column;
+  gap: 35px;
+}
