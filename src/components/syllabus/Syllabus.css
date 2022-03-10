@@ -17,24 +17,22 @@
   font-size: 16px;
   line-height: 21px;
   letter-spacing: -0.02em;
-  color: #566474;
+  color: rgb(86, 100, 116);
 }
 
 .slider {
   width: 197px;
   height: 10px;
-  opacity: 0.1;
   border-radius: 100px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: stretch;
   position: relative;
 }
 
 .range {
-  opacity: 1;
-  height: 200%;
-  position: absolute;
-  z-index: 999;
-  top: 0;
-  left: 0;
+  height: 100%;
+  width: 100%;
 }
 
 .syllabus__right {
